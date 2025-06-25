@@ -17,6 +17,9 @@ img {
     height: auto;
     border-radius: 8px;
 }
+.container{
+    padding: 0 40px;
+}
 
 /* header pc */
     header {
