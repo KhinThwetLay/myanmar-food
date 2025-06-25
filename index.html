@@ -10,23 +10,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1><a href="index.html">Myanmar Food & Desserts</a></h1>
-        </div>
-    </header>
+  <header>
+  <nav>
+    <div class="logo">🍜 Myanmar Food</div>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#recipes">Recipes</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
 
     <main>
         <section class="hero">
-             <div class="video-container">
-                <video autoplay muted loop playsinline>
-                <source src="your-video.mp4" type="video/mp4">
-                お使いのブラウザはvideoタグに対応していません。
-                </video>
-                <div class="content">
-                ようこそ！トップページへ
-                </div>
-            </div>
             <div class="hero-text">
                 <h2>Discover the Taste of Myanmar</h2>
                 <p>ミャンマーの食文化へようこそ！<br>A unique blend of Southeast Asian flavors, influenced by Thailand, India, and China. Let's explore the delicious world of Myanmarese cuisine.</p>
@@ -45,5 +48,12 @@
     <footer>
         <p>&copy; 2025 Myanmar Culinary Guide</p>
     </footer>
+    <script>
+   function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+    document.getElementById("hamburger").classList.toggle("active");
+  }
+</script>
+
 </body>
 </html>
