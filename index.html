@@ -1,54 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Myanmar Food & Desserts | A Culinary Journey to the Golden Land</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-  <nav>
-    <div class="logo">🍜 Myanmar Food</div>
-    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <div class="nav-links" id="navLinks">
-      <a href="#home">Home</a>
-      <a href="#recipes">Recipes</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
-</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myanmar Food & Desserts |このページはサンプルのページです。</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">🍜 Myanmar Food</div>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <!-- <a href="#culture">Culture</a> -->
+          <a href="#shop">Shop in Osaka</a>
+        </div>
+      </nav>
+    </header>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h2>Discover the Taste of Myanmar</h2>
+        <p>ミャンマーの食文化へようこそ！<br />A unique blend of Southeast Asian flavors, influenced by Thailand, India, and China. Let's explore the delicious world of Myanmarese cuisine.</p>
+        <!-- <a href="./food-list.html" class="button">一覧ページ</a> -->
+      </div>
+    </section>
 
+    <section id="about" class="introduction container">
+      <h2>About Myanmar Food</h2>
+      <div class="box-gp">
+        <div class="box box-l">
+          <img src="./assets/image/chat1.png" alt="" />
+        </div>
+        <div class="box box-r">
+          <p>ミャンマー料理は、ハーブやスパイス、発酵食品を使った、優しくも奥深い味わいが特徴です。油を巧みに使った煮込み料理や、食感豊かなサラダ、そしてココナッツミルクを使った甘いデザートまで、多彩な食の体験があなたを待っています。</p>
+          <p>It's known for its savory salads (thoke), rich curries, and noodle soups. The food is not just about taste but also about texture, with a common inclusion of crispy, crunchy elements.</p>
+        </div>
+      </div>
+    </section>
 
-    <main>
-        <section class="hero">
-            <div class="hero-text">
-                <h2>Discover the Taste of Myanmar</h2>
-                <p>ミャンマーの食文化へようこそ！<br>A unique blend of Southeast Asian flavors, influenced by Thailand, India, and China. Let's explore the delicious world of Myanmarese cuisine.</p>
-                <a href="./food-list.html" class="button">一覧ページ</a>
+    <section class="menu" id="menu">
+      <div class="container">
+        <h2>Top Myanmar Dishes</h2>
+        <div class="box-gp">
+          <div class="box">
+            <h3>Mohinga</h3>
+            <div class="img"><img src="./assets/image/mon-hin-gar1.webp" alt="" /></div>
+            <ul>
+              <li>What is it? Rice noodle fish soup — considered Myanmar’s national dish.</li>
+              <li>Main Ingredients: Catfish broth, banana stem, rice noodles, garlic, lemongrass, boiled egg.</li>
+              <li>Why try it? Savory, rich, and perfect for breakfast.</li>
+            </ul>
+          </div>
+
+          <div class="box">
+            <h3>Laphet Thoke</h3>
+            <div class="img">
+              <img src="./assets/image/tea-leaf-salad2.jpg" alt="" />
             </div>
-        </section>
+            <ul>
+              <li>What is it? Fermented tea leaf salad.</li>
+              <li>Main Ingredients: Pickled tea leaves, fried beans, nuts, garlic, tomatoes, lime juice.</li>
+              <li>Why try it? A unique mix of sour, bitter, crunchy, and spicy.</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Shan Noodles</h3>
+            <div class="img">
+              <img src="./assets/image/istockphoto-1148591190-1024x1024.jpg" alt="" />
+            </div>
+            <ul>
+              <li>What is it? A dry noodle dish from Shan State.</li>
+              <li>Main Ingredients: Rice noodles, chicken or pork, garlic oil, pickled veggies.</li>
+              <li>Why try it? Mild and flavorful — great comfort food.</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Ohn No Khao Swe</h3>
+            <div class="img">
+              <img src="./assets/image/coconut-noodle.webp" alt="" />
+            </div>
+            <ul>
+              <li>What is it? Coconut chicken noodle soup.</li>
+              <li>Main Ingredients: Coconut milk, chicken, boiled egg, turmeric, chickpea flour.</li>
+              <li>Why try it? Creamy and similar to Thai Khao Soi.</li>
+            </ul>
+          </div>
 
-        <section class="introduction container">
-            <h2>What is Myanmar Cuisine?</h2>
-            <p>ミャンマー料理は、ハーブやスパイス、発酵食品を使った、優しくも奥深い味わいが特徴です。油を巧みに使った煮込み料理や、食感豊かなサラダ、そしてココナッツミルクを使った甘いデザートまで、多彩な食の体験があなたを待っています。</p>
-            <p>It's known for its savory salads (thoke), rich curries, and noodle soups. The food is not just about taste but also about texture, with a common inclusion of crispy, crunchy elements.</p>
-        </section>
-    </main>
-    
+          <div class="box">
+            <h3>Ngapi Yay Dipping Sauce</h3>
+            <div class="img">
+              <img src="./assets/image/ngapi-yay.jpg" alt="" />
+            </div>
+            <ul>
+              <li>What is it? Fermented fish paste dip.</li>
+              <li>Served with: Fresh vegetables like cabbage, okra, cucumber.</li>
+              <li>Why try it? It’s salty, spicy, and very traditional.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="culture">
+      <div class="container">
+        <h2>Culture</h2>
+        <p>Coming soon....</p>
+      </div>
+    </section> -->
+
+    <section class="shop" id="shop">
+      <div class="container">
+        <h2>Shop in Osaka</h2>
+        <h3>サーヤーアウン(SAR YA AUNG)</h3>
+        <img src="./assets/image/sar-yar-aung.jpg" alt="サーヤーアウン" />
+        <p>〒557-0016 Osaka, Nishinari Ward, Hanazonokita, 2 Chome−6−20 ＢＳ第七ハイツ</p>
+      </div>
+    </section>
 
     <footer>
-        <p>&copy; 2025 Myanmar Culinary Guide</p>
+      <p>&copy; 2025 Myanmar Culinary Guide</p>
     </footer>
     <script src="./assets/js/javascript.js"></script>
-
-</body>
+  </body>
 </html>
